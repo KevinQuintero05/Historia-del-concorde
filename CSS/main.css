@@ -1,0 +1,90 @@
+/*=========== Toda la pagina ===========*/
+*{
+    background-color: white;
+    margin: 0%;
+}
+
+/*=========== Menu ===========*/
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: black;
+}
+
+.navbar .container .nav-item, .navbar-nav{
+   background-color: black;
+}
+
+.navbar .container .nav-link{
+    color: white;
+}
+
+.container{
+    background-color: black;
+}
+
+
+#navbarSupportedContent {
+    background-color: black;
+}
+
+/*=========== Primera imagen de presentación ===========*/
+    
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    color: white;
+    font-size: 30px;
+}
+
+#cuadro1{
+    filter: brightness(50%);
+  }
+
+/*============================== Inrodución =================================*/
+
+.intro, h2{
+    background-color: black;
+    color: white; 
+    text-align: center;
+}
+
+.row, .col-8, p{
+    font-size: 20px;
+    color: gray;
+}
+
+
+/*============================== Historia =================================*/
+
+.historia, h1{
+    background-color:black;
+    color: white; 
+    text-align: center;
+}
+
+/*=============================== Linea ===================================*/
+
+
+
+
+
+
+
+
+
