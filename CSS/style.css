@@ -40,6 +40,7 @@
     position: relative;
     display: inline-block;
     text-align: center;
+    background-size: cover;
 }
 
 .centrado{
@@ -49,7 +50,7 @@
     transform: translate(-50%, -50%);
     background: none;
     color: white;
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 #cuadro1{
@@ -80,7 +81,18 @@
 
 /*=============================== Linea ===================================*/
 
+.linea {
+    margin: 10px;
+    background-color: aliceblue;
+} 
 
+.cincuentas .row  .col-md-4 a{
+    text-decoration: none;
+}
+
+.naciones{
+    column-count: 4;
+}
 
 
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
@@ -17,31 +17,34 @@
 </head>
 
 <body>
-    <!-- Menu -->
-    <nav class="navbar navbar-expand-lg  navbar-light p-3" id="menu">
-        <div class="container">
+    <header>
+        <nav class="navbar navbar-expand-lg  navbar-light p-3" id="menu">
+            <div class="container">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Historia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Modulo de gestion de usuarios/index.html">Fabricación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#servicios">Aerolíenas</a>
-                    </li>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Modulo de gestion de usuarios/index.html">Fabricación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Aerolíenas</a>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
+
             </div>
+        </nav>
+    </header>
+    <!-- Menu -->
 
-        </div>
-    </nav>
     <!-- Imagen uno -->
     <div class="contenedor">
         <img id="cuadro1" src="./Imagen/Concorde-1c.jpg" class="img-fluid" alt="">
@@ -73,9 +76,9 @@
                     toda la historia de la humanidad, muchos olviadn que pisamos la luna, que el iphone de cada año es
                     lo más avanzado que podemos crear pero realmente el futuro ya existió y nuestras vidas son mas
                     simples
-                    gracias a nuestros antepazados que utilizaron todos sus conocimientos y expereincas en darnos uan
+                    gracias a nuestros antepazados que utilizaron todos sus conocimientos y expereincas en darnos una
                     vida
-                    mejor pero que desafortunadamente nos hemos condenado a un mundo límitdo y repetitivo y limitado...
+                    mejor, pero que desafortunadamente nos hemos condenado a un mundo repetitivo y limitado...
 
                 </p>
             </div>
@@ -84,27 +87,59 @@
 
     <div class="historia">
         <br>
-        <h1>Historia</h1>
+        <h1 id="Th">Historia</h1>
         <br>
     </div>
-
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+<article class="linea">
+    <div class="cincuentas">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">1950´s</h5>
+                        <span>El auge de los aviones a reacción</span>
+                        <p class="card-text">A proncipios de los 50 la gran mayoría de las travesias por el atlanto se
+                            hacian por aviones
+                            propulsados por helice, aunque hubieron grandes avances en la epoca y uno de los mas grandes
+                            fue la introducción
+                            del Haviland Comet, el primer avión comercial de rea</p>
+                        <p class="card-text"><small class="text-body-secondary">Comet construido por <a
+                            href="https://es.wikipedia.org/wiki/De_Havilland_Aircraft_Company">Havilland</a></small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://www.dlcutawaymodels.com/wp-content/uploads/2020/02/FCF56FEC-E9B0-4422-9D57-DE6F80E8A7C8-980x450.jpeg"
+                        class="img-fluid rounded-end" alt="...">
+                    
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Dh_Comet.jpg/450px-Dh_Comet.jpg"
+                    class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="naciones">
+        Las garndes potencias consideraban al idea de transformar la aviación comercial
+        trayendo consigo los viajes supersonico al alcance de la gente 
+    </div>
 
+</article>
+    
 </body>
 
 </html>
